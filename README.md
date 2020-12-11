@@ -6,7 +6,7 @@
 
 DocumentOutline is a vanilla JavaScript library that automatically generates the "Table of Contents" of an HTML document.
 
-**The table of contents you see on this page is generated with DocumentOutline.js.** The page instead was generated with [Typora](https://typora.io/).
+**See a live example [here](https://angelofaella.github.io/DocumentOutline/)**. 
 
 <br/></br>
 
@@ -21,8 +21,17 @@ Import needed files:
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AngeloFaella/DocumentOutline@1.0/outline.css">
   </head>
   <body>
+    <!-- Wrap your main content in a div -->
     <div>
-        <!-- Wrap your main content in a div -->
+        <!-- Use heading tags to structure your document -->
+        <h1> 1 - Title</h1>
+        <h2> 1.1 - Subtitle</h2>
+        <h3> 1.2 - Subtitle</h3>
+        ...
+        <h1> 2 - Title</h1>
+        <h2> 2.1 - Subtitle</h2>
+        <h3> 2.2 - Subtitle</h3>
+        ...
     </div>  
     <!-- Import the library -->    
     <script src="https://cdn.jsdelivr.net/gh/AngeloFaella/DocumentOutline@1.0/DocumentOutline.js"></script>
