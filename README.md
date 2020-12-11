@@ -1,5 +1,5 @@
-[![GitHub license](https://img.shields.io/github/license/AngeloFaella/DocumentOutline)](https://github.com/AngeloFaella/CircularProgressBar/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/AngeloFaella/DocumentOutline)](https://GitHub.com/AngeloFaella/CircularProgressBar/releases/)
+[![GitHub license](https://img.shields.io/github/license/AngeloFaella/DocumentOutline)](https://github.com/AngeloFaella/DocumentOutline/blob/main/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/AngeloFaella/DocumentOutline)](https://GitHub.com/AngeloFaella/DocumentOutline/releases/)
 ![Language](https://img.shields.io/badge/Javascript-darkgreen.svg)
 
 # DocumentOutline.js
