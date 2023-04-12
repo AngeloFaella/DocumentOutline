@@ -18,7 +18,7 @@ Import needed files:
 <html>
   <head>
     <!-- Import CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AngeloFaella/DocumentOutline@1.0/outline.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AngeloFaella/DocumentOutline@latest/outline.css">
   </head>
   <body>
     <!-- Wrap your main content in a div -->
@@ -34,7 +34,7 @@ Import needed files:
         ...
     </div>  
     <!-- Import the library -->    
-    <script src="https://cdn.jsdelivr.net/gh/AngeloFaella/DocumentOutline@1.0/DocumentOutline.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/AngeloFaella/DocumentOutline@latest/DocumentOutline.js"></script>
   </body>
 </html>
 ```

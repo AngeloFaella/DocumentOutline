@@ -121,6 +121,9 @@ body{
 .outline-menu-container-collapsed svg{
     height: 100%;
 }
+.outline-mobile-menu-icon-container{
+    display: none;
+}
 
 
 
@@ -254,6 +257,7 @@ body{
     }
 
     .outline-mobile-menu-icon-container{
+        display: block;
         position: sticky;
         bottom: 5%;
         left: 5%;
@@ -280,6 +284,7 @@ body{
 @media only screen and (max-width: 480px){
 
     .outline-mobile-menu-icon-container{
+        display: block;
         bottom: 5%;
         left: 5%;
         width: 16vw;
