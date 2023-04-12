@@ -68,6 +68,14 @@ let DocumentOutline;
                     return node
             }
         }
+        
+        _getOffset(el) {
+            const rect = el.getBoundingClientRect();
+            return {
+              x: rect.left + window.scrollX,
+              y: rect.top + window.scrollY
+            };
+        }
 
         _hasSibilings = level => {
             const parent = this._getParent(level);
@@ -99,7 +107,7 @@ let DocumentOutline;
                 // add navigation
                 span.innerHTML = this._headingMap[i].tag.innerHTML;    
                 span.addEventListener('click', e => {
-                    window.scrollTo(0, this._headingMap[i].tag.offsetTop);
+                    window.scrollTo(0, this._getOffset(this._headingMap[i].tag).y);
                     if(this._isMobile) this.hideOutline();
                     document.getElementsByClassName('outline-search')[0].value = '';
                     this.onSearchInput('')  
